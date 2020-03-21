@@ -8,7 +8,7 @@
   <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
 
   <body>
-      <a-scene inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" fog="color: #f0eef1; density: 0; far: 150; near: 0">
+      <a-scene inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" fog="color: #f0eef1; density: 0; far: 70; near: 0">
           <a-assets>
               <img id="skyLeaves" src="https://juanhiriart.github.io/aframe-forest/assets/autumn_forest_02.jpg" crossorigin="anonymous">
               <img id="groundTexture" src="https://juanhiriart.github.io/aframe-forest/assets/floor_leaves.jpg" crossorigin="anonymous">
@@ -23,7 +23,7 @@
 
           <a-light type="ambient" color="#fdfaff" intensity:="" 1.2="" light=""></a-light>
 
-          <a-camera position="-1.5571279979243433 10 10.165246872458852" wasd-controls="acceleration: 100" camera="" rotation="-6.7609019825437215 -8.823550045014603 0" look-controls="" data-aframe-inspector-original-camera="">
+          <a-camera twoway-motion="speed: 35" position="-1.5571279979243433 10 10.165246872458852" wasd-controls="acceleration: 100" camera="" rotation="-6.7609019825437215 -8.823550045014603 0" look-controls="" data-aframe-inspector-original-camera="">
               <a-cursor color="#11D8C4" fuse="true" timeout="10" material="" raycaster="" cursor="" geometry=""></a-cursor>
           </a-camera>
 
