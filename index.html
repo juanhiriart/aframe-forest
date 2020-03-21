@@ -8,26 +8,27 @@
   <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
 
   <body>
-    <a-scene>
-      <a-assets>
-        <img id="skyLeaves" src="https://juanhiriart.github.io/aframe-forest/assets/autumn_forest_02.jpg" crossorigin="anonymous">
-        <img id="groundTexture" src="https://juanhiriart.github.io/aframe-forest/assets/floor_leaves.jpg" crossorigin="anonymous">
-      </a-assets>
-      
-      
-      <a-sky id="background" src="#skyLeaves" theta-length="90" radius="30" position="0 -5.92678 0" material="" geometry=""></a-sky>
-      
-      <a-cylinder id="ground" src="#groundTexture" radius="30" height="1" material="color: #f3c8b1"" geometry=""></a-cylinder>
-                                                                                                                
-      <a-entity id="tree" obj-model="obj: ./assets/tree/tree_03b.obj; mtl: ./assets/tree/tree_03b.mtl" position="0 0 -4.757" scale="2.5 2.5 2.5" material="normalMap: https://juanhiriart.github.io/aframe-forest/assets/tree/base_texture_normals.png; src: https://juanhiriart.github.io/aframe-forest/assets/tree/base_texture.png"></a-entity>
-      
-      <a-light type="ambient" color="#fdfaff" intensity: 1.2></a-light>
-                                                                                                                
-      <a-camera position="0 10 0" wasd-controls="acceleration:  100"> 
-        <a-cursor color="#11D8C4" fuse="true" timeout="10"></a-cursor> 
-      </a-camera>
-      
-    </a-scene>
+      <a-scene inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="" fog="color: #f0eef1; density: 0; far: 150; near: 0">
+          <a-assets>
+              <img id="skyLeaves" src="https://juanhiriart.github.io/aframe-forest/assets/autumn_forest_02.jpg" crossorigin="anonymous">
+              <img id="groundTexture" src="https://juanhiriart.github.io/aframe-forest/assets/floor_leaves.jpg" crossorigin="anonymous">
+          </a-assets>
+
+
+          <a-sky id="background" src="#skyLeaves" theta-length="90" radius="30" position="0 -5.92678 0" material="" geometry=""></a-sky>
+
+          <a-cylinder id="ground" src="#groundTexture" radius="30" height="1" material="color: #f3c8b1" "=" " geometry=""></a-cylinder>
+
+          <a-entity id="tree" obj-model="obj: ./assets/tree/tree_03b.obj; mtl: ./assets/tree/tree_03b.mtl" position="-10.85007 0 4.49649" scale="2.5 2.5 2.5" material="normalMap: https://juanhiriart.github.io/aframe-forest/assets/tree/base_texture_normals.png; src: https://juanhiriart.github.io/aframe-forest/assets/tree/base_texture.png"></a-entity><a-entity id="tree-3" obj-model="obj: ./assets/tree/tree_03b.obj; mtl: ./assets/tree/tree_03b.mtl" position="12.03608 0 6.47326" scale="2.5 2.5 2.5" material="normalMap: https://juanhiriart.github.io/aframe-forest/assets/tree/base_texture_normals.png; src: https://juanhiriart.github.io/aframe-forest/assets/tree/base_texture.png"></a-entity><a-entity id="tree-2" obj-model="obj: ./assets/tree/tree_03b.obj; mtl: ./assets/tree/tree_03b.mtl" position="0 0 -4.757" scale="2.5 2.5 2.5" material="normalMap: https://juanhiriart.github.io/aframe-forest/assets/tree/base_texture_normals.png; src: https://juanhiriart.github.io/aframe-forest/assets/tree/base_texture.png"></a-entity>
+
+          <a-light type="ambient" color="#fdfaff" intensity:="" 1.2="" light=""></a-light>
+
+          <a-camera position="-1.5571279979243433 10 10.165246872458852" wasd-controls="acceleration: 100" camera="" rotation="-6.7609019825437215 -8.823550045014603 0" look-controls="" data-aframe-inspector-original-camera="">
+              <a-cursor color="#11D8C4" fuse="true" timeout="10" material="" raycaster="" cursor="" geometry=""></a-cursor>
+          </a-camera>
+
+          <div class="a-loader-title" style="display: none;">Outdoor A-Frame environment test</div>
+      </a-scene>
   </body>
 </html>
 
