@@ -1,3 +1,3 @@
 # aframe-forest
 A-frame test 
-v1.0
+v1.1
